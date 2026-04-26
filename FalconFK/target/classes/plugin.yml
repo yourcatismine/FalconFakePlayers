@@ -1,0 +1,25 @@
+name: FalconFK
+version: "6.7"
+main: com.falconfk.FalconFKPlugin
+api-version: "1.21"
+authors: [Falcon]
+description: Lol.
+folia-supported: true
+commands:
+  falcon:
+    description: Main
+    usage: /falcon summon [amount] [name] | /falcon chat [all|botname] [on|off|toggle] | /falcon despawn [all|botname]
+    permission-message: ""
+permissions:
+  falconfk.command:
+    description: /falcon
+    default: true
+  falconfk.summon:
+    description: /falcon summon
+    default: op
+  falconfk.chat:
+    description: /falcon chat
+    default: op
+  falconfk.despawn:
+    description: /falcon despawn
+    default: op

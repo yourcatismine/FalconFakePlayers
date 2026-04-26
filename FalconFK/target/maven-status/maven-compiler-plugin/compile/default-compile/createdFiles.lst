@@ -1,0 +1,8 @@
+com\falconfk\FalconFKPlugin.class
+com\falconfk\bot\FalconBotManager.class
+com\falconfk\bot\FakeConnection.class
+com\falconfk\bot\FakeServerGamePacketListenerImpl.class
+com\falconfk\command\FalconCommand.class
+com\falconfk\FalconFKPluginHolder.class
+com\falconfk\bot\FalconBotManager$BotPlan.class
+com\falconfk\bot\NmsBotSpawner.class
